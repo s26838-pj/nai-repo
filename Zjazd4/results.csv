@@ -1,0 +1,43 @@
+Scenariusz,Zbiór,Model,Accuracy,F1-weighted
+1,Wine Quality (dobre >=7),Drzewo Gini (depth=5),0.905,0.8967
+1,Wine Quality (dobre >=7),Drzewo Entropy (depth=5),0.8975,0.8954
+1,Wine Quality (dobre >=7),Drzewo Gini (pełne),0.895,0.895
+1,Wine Quality (dobre >=7),SVM linear C=1,0.865,0.8024
+1,Wine Quality (dobre >=7),SVM RBF C=1,0.9,0.8828
+1,Wine Quality (dobre >=7),SVM RBF C=10,0.9075,0.9
+1,Wine Quality (dobre >=7),SVM poly deg=3,0.885,0.8653
+1,Pima Indians Diabetes,Drzewo Gini (depth=5),0.7917,0.7862
+1,Pima Indians Diabetes,Drzewo Entropy (depth=5),0.7708,0.7607
+1,Pima Indians Diabetes,Drzewo Gini (pełne),0.7448,0.7388
+1,Pima Indians Diabetes,SVM linear C=1,0.7083,0.7007
+1,Pima Indians Diabetes,SVM RBF C=1,0.75,0.7447
+1,Pima Indians Diabetes,SVM RBF C=10,0.7344,0.7307
+1,Pima Indians Diabetes,SVM poly deg=3,0.7344,0.7091
+2,Wine Quality (dobre >=7),Drzewo Gini (depth=5),0.885,0.88
+2,Wine Quality (dobre >=7),Drzewo Entropy (depth=5),0.86,0.8552
+2,Wine Quality (dobre >=7),Drzewo Gini (pełne),0.8875,0.8879
+2,Wine Quality (dobre >=7),SVM linear C=1,0.865,0.8024
+2,Wine Quality (dobre >=7),SVM RBF C=1,0.9025,0.8833
+2,Wine Quality (dobre >=7),SVM RBF C=10,0.8775,0.8689
+2,Wine Quality (dobre >=7),SVM poly deg=3,0.87,0.8455
+2,Pima Indians Diabetes,Drzewo Gini (depth=5),0.776,0.7719
+2,Pima Indians Diabetes,Drzewo Entropy (depth=5),0.7865,0.7835
+2,Pima Indians Diabetes,Drzewo Gini (pełne),0.7552,0.7548
+2,Pima Indians Diabetes,SVM linear C=1,0.7656,0.7561
+2,Pima Indians Diabetes,SVM RBF C=1,0.776,0.7623
+2,Pima Indians Diabetes,SVM RBF C=10,0.7604,0.7528
+2,Pima Indians Diabetes,SVM poly deg=3,0.75,0.714
+3,Wine Quality (dobre >=7),Drzewo Gini (depth=5),0.9025,0.8987
+3,Wine Quality (dobre >=7),Drzewo Entropy (depth=5),0.89,0.89
+3,Wine Quality (dobre >=7),Drzewo Gini (pełne),0.8725,0.873
+3,Wine Quality (dobre >=7),SVM linear C=1,0.865,0.8024
+3,Wine Quality (dobre >=7),SVM RBF C=1,0.8875,0.8673
+3,Wine Quality (dobre >=7),SVM RBF C=10,0.895,0.8871
+3,Wine Quality (dobre >=7),SVM poly deg=3,0.8825,0.8593
+3,Pima Indians Diabetes,Drzewo Gini (depth=5),0.7604,0.7565
+3,Pima Indians Diabetes,Drzewo Entropy (depth=5),0.7448,0.7481
+3,Pima Indians Diabetes,Drzewo Gini (pełne),0.6979,0.693
+3,Pima Indians Diabetes,SVM linear C=1,0.7969,0.7965
+3,Pima Indians Diabetes,SVM RBF C=1,0.7969,0.7965
+3,Pima Indians Diabetes,SVM RBF C=10,0.7812,0.7796
+3,Pima Indians Diabetes,SVM poly deg=3,0.776,0.7655
