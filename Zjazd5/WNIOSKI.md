@@ -2,13 +2,13 @@
 
 ## Wyniki eksperymentów
 
-| Zbiór danych   | Model                | Skuteczność (accuracy) |
-|----------------|--------------------|----------------------|
-| Wine Quality   | Mała sieć          | 0.5344               |
-| Wine Quality   | Duża sieć          | 0.6062               |
-| CIFAR-10       | CNN                | 0.7193               |
-| Fashion-MNIST  | CNN                | 0.9151               |
-| MNIST          | MLP                | 0.9726               |
+| Zbiór danych  | Model                | Skuteczność (accuracy) |
+|---------------|--------------------|------------------------|
+| Wine Quality  | Mała sieć          | 0.5344                 |
+| Wine Quality  | Duża sieć          | 0.6062                 |
+| CIFAR-10      | CNN                | 0.7193                 |
+| Fashion-MNIST | CNN                | 0.9151                 |
+| Mushroom      | MLP (64-32)        | 1.0000                 |
 
 ## Wnioski
 
@@ -20,10 +20,13 @@
 
 3. **Rozpoznawanie obrazów**  
    - CNN dobrze radzą sobie z klasyfikacją obrazów: CIFAR-10 (0.7193) i Fashion-MNIST (0.9151).  
-   - Proste obrazy w skali szarości (MNIST) pozwoliły sieci MLP osiągnąć bardzo wysoką skuteczność (0.9726).  
    - Sieci neuronowe sprawdzają się lepiej dla większych i bardziej złożonych zbiorów obrazów.
 
-4. **Ogólne obserwacje**  
-   - Sieci neuronowe wymagają dużej ilości danych, aby osiągnąć wysoką skuteczność.  
-   - Dla małych, tablicowych danych klasyczne metody, jak SVM czy drzewa decyzyjne, nadal mogą być lepsze.  
-   - Confusion matrix dla Wine Quality pokazuje, że sieć często myli sąsiadujące klasy jakości.
+4. **Perfekcyjna klasyfikacja grzybów (Mushroom Dataset)**  
+   - Sieć neuronowa (MLP 64-32) osiągnęła **100% skuteczności** w klasyfikacji grzybów na jadalne i trujące.  
+   - Zbiór Mushroom jest kompletny, dobrze opisany i w pełni kategoryczny, co umożliwia perfekcyjną klasyfikację.
+
+5. **Ogólne obserwacje**  
+   - Sieci neuronowe wymagają dużej ilości danych, aby osiągnąć wysoką skuteczność, szczególnie w przypadku obrazów.  
+   - Dla małych, tablicowych danych klasyczne metody mogą nadal być konkurencyjne.  
+   - Dla dobrze rozdzielonych, kategorycznych zbiorów danych, takich jak Mushroom, sieci MLP mogą osiągnąć perfekcyjną skuteczność.
