@@ -32,6 +32,11 @@ import numpy as np
 import sys
 
 def main():
+    """
+    Opis:
+        Uruchamia aplikację do detekcji ruchu i wykrywania twarzy
+        w obrazie z kamery internetowej w czasie rzeczywistym.
+    """
     
     # Ścieżka do klasyfikatora twarzy
     cascade_path = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
